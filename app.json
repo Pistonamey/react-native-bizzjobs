@@ -4,12 +4,22 @@
     "web": {
       "bundler": "metro"
     },
-    "name": "jobsift",
-    "slug": "jobsift",
+    "name": "bizzjobs",
+    "slug": "bizzjobs",
     "extra": {
       "eas": {
-        "projectId": "cd33ca9d-f67f-4fe6-9255-1e216866dd67"
+        "projectId": "8ec397a0-50ac-4a09-a769-9603d59fcbc1"
       }
-    }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/8ec397a0-50ac-4a09-a769-9603d59fcbc1"
+    },
+    "android": {
+      "package": "com.pistonamey.bizzjobs"
+    },
+    "ios": {}
   }
 }

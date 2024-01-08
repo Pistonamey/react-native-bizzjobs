@@ -3,13 +3,13 @@ import { ActivityIndicator, FlatList, Image, TouchableOpacity, View } from 'reac
 import { Stack, useRouter, useSearchParams } from 'expo-router'
 import { Text, SafeAreaView } from 'react-native'
 import axios from 'axios'
-import { RAPID_API_KEY } from '@env';
+import { EXPO_PUBLIC_RAPID_API_KEY } from '@env';
 import { ScreenHeaderBtn, NearbyJobCard } from '../../components'
 import { COLORS, icons, SIZES } from '../../constants'
 import styles from '../../styles/search'
 
 
-const rapid_api_key=RAPID_API_KEY
+const rapid_api_key=EXPO_PUBLIC_RAPID_API_KEY
 const JobSearch = () => {
     const params = useSearchParams();
     const router = useRouter()
